@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+li {
+	list-style-type: none;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	gap: 40px;
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+a, #hero-secondary-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.container-one {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-one, .footer {
+	background-color: #1F2937;
+}
+
+#hero-main-text {
+	font-weight: bold;
+	font-size: 48px;
+	color: #F9FAF8;
+}
+
+#information-text {
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+
+}
+
+.container-three {
+	background-color: #E5E7EB;
+}
+
+#quote-text {
+	font-size: 36px;
+	color: #1F2937;
+}
+
+button {
+	color: #3882F6;
+}
+
