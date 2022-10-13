@@ -15,12 +15,12 @@ a {
 ul {
 	display: flex;
 	gap: 40px;
-
 }
 
 .header {
 	display: flex;
 	justify-content: space-around;
+	padding: 10px;
 	
 }
 
@@ -42,6 +42,8 @@ a, #hero-secondary-text {
 	font-weight: bold;
 	font-size: 48px;
 	color: #F9FAF8;
+	padding: 0;
+	margin: 0;
 }
 
 #information-text {
@@ -49,6 +51,46 @@ a, #hero-secondary-text {
 	font-weight: bold;
 	color: #1F2937;
 
+}
+
+.hero {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 50px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.container-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px;
+}
+
+.info-boxes {
+	display: flex;
+}
+
+
+.box {
+	border: 5px;
+	border-style: solid;
+	border-color: blueviolet;
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+	
 }
 
 .container-three {
@@ -60,7 +102,6 @@ a, #hero-secondary-text {
 	color: #1F2937;
 }
 
-button {
-	color: #3882F6;
+.container-four {
+	background-color: #3882F6;
 }
-
