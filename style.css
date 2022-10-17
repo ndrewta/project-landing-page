@@ -1,6 +1,8 @@
 body {
 	display: flex;
+	justify-content: space-between;
 	flex-direction: column;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -57,10 +59,10 @@ a, #hero-secondary-text {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	padding: 50px;
+	margin: 50px;
 }
 
-.info {
+.hero-info {
 	display: flex;
 	flex-direction: column;
 	width: 400px;
@@ -76,6 +78,7 @@ a, #hero-secondary-text {
 	align-items: center;
 	text-align: center;
 	padding: 40px;
+	margin-bottom: 150px;
 }
 
 .info-boxes {
@@ -95,13 +98,61 @@ a, #hero-secondary-text {
 
 .container-three {
 	background-color: #E5E7EB;
+	padding: 2em;
 }
 
 #quote-text {
 	font-size: 36px;
 	color: #1F2937;
+	text-align: center;
+	margin: 0;
+}
+
+#quote-name {
+	text-align: right;
+	font-size 20px;
+	font-weight: bold;
+	padding-right: 15em;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 15px;
 }
 
 .container-four {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 90px 70px;
+	color: white;
+}
+
+.banner {
+	display: flex;
+	flex-grow: 0;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 10px;
 	background-color: #3882F6;
+	padding: 2em;
+	width: 800px;
+}
+
+#banner-maintext {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#banner-subtext {
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	color: white;
+	text-align: center;
 }
