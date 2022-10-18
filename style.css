@@ -165,3 +165,21 @@ a, #hero-secondary-text {
 	color: white;
 	text-align: center;
 }
+
+.btn {
+	display: block; 
+	height: 50px; 
+	width: 150px; 
+	background: #3882f6; 
+	text-align: center; 
+	font-weight:bold; 
+	line-height: 50px; 
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.btn#banner {
+	border-style: solid; 
+	border-color: #FFFFFF;
+}
+
