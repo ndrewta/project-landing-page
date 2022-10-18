@@ -14,9 +14,13 @@ a {
 	text-decoration: none;
 }
 
-ul {
+#header-list {
 	display: flex;
-	gap: 40px;
+}
+
+#header-list #header-item {
+	margin-left: 40px;
+	padding: 0;
 }
 
 .header {
@@ -80,11 +84,16 @@ a, #hero-secondary-text {
 	margin-bottom: 150px;
 }
 
-.info-boxes {
+#info-list {
 	display: flex;
-	
+	box-sizing: border-box;
+	width: 100%;
 }
 
+#info-list .box {
+	margin: 0px 50px;
+	padding: 0;
+}
 
 .box {
 	border: 5px;
